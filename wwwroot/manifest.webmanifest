@@ -1,0 +1,25 @@
+{
+  "name": "Kelime Ezber Pro • YDS & YÖKDİL",
+  "short_name": "KelimeEzber",
+  "description": "YDS ve YÖKDİL kelimelerini seviyeler, görevler ve testlerle ezberleme uygulaması",
+  "id": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
