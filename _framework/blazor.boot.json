@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "KelimeEzberApp",
   "resources": {
-    "hash": "sha256-lFViEgKZ3Ec2/TNNqBDw89r7eD9FbmdKHQ7N2g3OP2Y=",
+    "hash": "sha256-SL9kTCr812CXScivMeYDJGbZoyPALndYYTMcWcTifZY=",
     "fingerprinting": {
-      "KelimeEzberApp.6zevzv5cxb.wasm": "KelimeEzberApp.wasm",
+      "KelimeEzberApp.5b7g3svit7.wasm": "KelimeEzberApp.wasm",
       "Microsoft.AspNetCore.Components.c1zfe3905a.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.ehv59szblg.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.zitsrnrpqp.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -65,7 +65,7 @@
       "System.Runtime.InteropServices.JavaScript.i2ix6lwh25.wasm": "sha256-RqyU7ieeXqDs2Zt/JfAKBOfIOJnSgjHcQtfKtUDnc7w="
     },
     "assembly": {
-      "KelimeEzberApp.6zevzv5cxb.wasm": "sha256-bnOL2Xi1wtL4Z/7KWY62x5HMH2LoyvXR1Z0BP2YZAmU=",
+      "KelimeEzberApp.5b7g3svit7.wasm": "sha256-AcyuyodazH9ENyEyvASxjFi07TIcA32F5L83MSk3WKw=",
       "Microsoft.AspNetCore.Components.c1zfe3905a.wasm": "sha256-IKn2nTV1V6oxSGJkS7cRT5/AUg8G2fZZUShj6LTPAvM=",
       "Microsoft.AspNetCore.Components.Web.ehv59szblg.wasm": "sha256-Xkj6n/BeF7fS9ROYSqfMqllBzuJAyNxDvRM/mlfJ8Eg=",
       "Microsoft.AspNetCore.Components.WebAssembly.zitsrnrpqp.wasm": "sha256-eytmvA379508rR2oO+TVWNgKhs+lhcl1u0b97sNxV7g=",
