@@ -1,0 +1,29 @@
+KELIME EZBER - CALISTIRMA
+
+1. ZIP dosyasini tamamen cikartin.
+2. Python 3 kurulu Windows bilgisayarda BASLAT.bat dosyasini calistirin.
+3. Tarayicida http://localhost:8000 adresini acin. Sunucu penceresini acik tutun.
+index.html dosyasini cift tiklamak Blazor WebAssembly uygulamasini calistirmaz.
+
+YAYINLAMA
+Tum klasoru HTTPS destekleyen statik sunucuya yukleyin. _framework klasoru dahil
+butun dosyalar yuklenmeli; .wasm dosyalari application/wasm olarak sunulmali.
+Alt sayfalar yenilendiginde sunucu index.html dosyasina fallback yapmali.
+GitHub Pages icin 404.html eklidir. Kok dizin ve alt klasor desteklenir.
+iPhone'da HTTPS adresini Safari ile acip Ana Ekrana Ekle kullanabilirsiniz.
+Yerel sunucu yalniz bu bilgisayardan erisime aciktir.
+Eski yayin onbellegi devam ederse ilgili sitenin tarayici onbellegini temizleyin;
+site verilerini silmeden once uygulamadan ilerleme yedeginizi alin.
+
+DUZELTMELER
+Sabit yayin yolu kaldirildi, derlenmis uygulamadaki bilinen rotalar desteklendi.
+Dosya uzerinden acilista ve baslatma hatasinda aciklayici mesaj eklendi.
+Tum service worker kayitlarini silen kod kaldirildi. Onbellek uygulama kapsamiyla
+sinirlandi; degisen dosyalarin offline manifest hashleri guncellendi.
+Eski sikistirilmis kopyalar kaldirildi; normal dosyalar sunulabilir.
+
+KONTROL SINIRI
+Paket .cs, .razor ve .csproj kaynak dosyalarini icermiyor. Derlenmis C# is mantigi
+degistirilmedi. Dosya butunlugu, JavaScript sozdizimi ve yerel HTTP rotalari
+kontrol edildi. Bu ortamda tarayici kurulamadigindan ekranlar ve butonlar
+etkilesimli olarak dogrulanamadi. Kaynak proje ile kapsamli duzeltme yapilabilir.
