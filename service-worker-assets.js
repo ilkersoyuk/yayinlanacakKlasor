@@ -1,16 +1,16 @@
 self.assetsManifest = {
-  "version": "798gcxWE",
+  "version": "2adc64471f7872da",
   "assets": [
     {
       "hash": "sha256-N411ySuAxw6QNxpPlNV1CA9yi2ao/KgdS+Pos1q8DrU=",
       "url": ".nojekyll"
     },
     {
-      "hash": "sha256-hBl7SGDuMFkU2MRxdRzWdDyVNySFEMEyHEtVNMNnH5Y=",
+      "hash": "sha256-vn6DQhf9PVsZrzGqZBUNXljLKuc2oqGBNll+1QDdexc=",
       "url": "404.html"
     },
     {
-      "hash": "sha256-/sVwcxAT9QOc7uJuZE51rs+CAYqFGsYZmSm10uf2q+I=",
+      "hash": "sha256-gz1AUgm+/jaGyHP4pajWgYxJtReKAxoQD26Rmqy/5y0=",
       "url": "KelimeEzberApp.styles.css"
     },
     {
@@ -154,7 +154,7 @@ self.assetsManifest = {
       "url": "_framework/System.Threading.4rqcntqsqu.wasm"
     },
     {
-      "hash": "sha256-7asO9tZjkzyBGoZ+KzfwVoAX8HSZpKBgjswfWss8w5E=",
+      "hash": "sha256-zrcZrqxK2NMl3qzm4D7XHzKpK/+LICpIvUmJi5t6BnE=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -194,7 +194,7 @@ self.assetsManifest = {
       "url": "css/app.css"
     },
     {
-      "hash": "sha256-MuxB13oao3OMACFIlR92Fvv4aDysIuOm4qX31i0DCjs=",
+      "hash": "sha256-+v8Wt9Upv7vw1aILmkAYuBdaaMfbb/ZpoVvtporBoaU=",
       "url": "data/words.json"
     },
     {
@@ -210,12 +210,16 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-XV+t476gDtMDShx9po+7uScFzxYHKTfDQ538TVl54M0=",
+      "hash": "sha256-vn6DQhf9PVsZrzGqZBUNXljLKuc2oqGBNll+1QDdexc=",
       "url": "index.html"
     },
     {
       "hash": "sha256-ThWWHwkMqxzUJW6JjxLMGXTYbkWt9xSWsaONiy1RHE4=",
       "url": "js/app.js"
+    },
+    {
+      "hash": "sha256-TNkx9N/uAcjx3jNycYY6rj7BZ3BIgEzJjiY6UwED1y0=",
+      "url": "js/hosting-compat.js"
     },
     {
       "hash": "sha256-Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=",
@@ -398,7 +402,7 @@ self.assetsManifest = {
       "url": "manifest.webmanifest"
     },
     {
-      "hash": "sha256-enKgCMkYmCpfEcmg6Annbmc40VZ/A6aYYSQjZfVn2cU=",
+      "hash": "sha256-paIeuWnSzjeLGITWkk4p3rcejUsZWCJGPeOK9UhWXtg=",
       "url": "sample-data/weather.json"
     }
   ]

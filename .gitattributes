@@ -1,0 +1,7 @@
+# Keep published text and offline integrity hashes identical on Windows/GitHub.
+* text=auto eol=lf
+*.wasm -text
+*.png -text
+*.dat -text
+*.br -text
+*.gz -text

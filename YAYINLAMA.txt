@@ -1,0 +1,53 @@
+YAYINLAMA VE YAPILAN DUZELTME
+
+Bu klasor, uygulamanin calisabilir yayin paketidir. Mevcut ekranlar ve
+kelime verileri korunarak GitHub Pages alt-klasor yonlendirmesi duzeltildi.
+
+Yayin adresi:
+https://ilkersoyuk.github.io/yayinlanacakKlasor/
+
+GitHub Desktop:
+1. englishApp klasorune bagli yayinlanacakKlasor reposunu secin.
+2. Degisikliklerin tamamini gozden gecirin.
+3. Summary: Fix GitHub Pages navigation
+4. Commit to main (veya mevcut yayin daliniz).
+5. Push origin.
+6. GitHub Pages yayini tamamlandiktan sonra siteyi acin.
+
+Ilk acilista eski gorunum devam ederse once sayfayi yenileyin veya gizli
+pencerede test edin. Ilerleme kaybini onlemek icin site verilerini silmeyin.
+Gerekirse uygulamanin Yedek ekranindan once yedek alin.
+
+Yerelde:
+BASLAT.bat veya python serve.py
+http://localhost:8000/yayinlanacakKlasor/
+
+Teknik not:
+js/hosting-compat.js, mevcut derlenmis uygulamanin kok dizine yonlendiren
+rota cagri yollarini mevcut yayin klasoru altina cevirir. Diger sitelere,
+varlik dosyalarina ve bilinmeyen adreslere yapilan yonlendirmeleri degistirmez.
+Bu, elde C#/Razor kaynaklari bulunmadigi icin eklenen bir yayin uyumluluk
+katmanidir. Blazor framework dosyalari veya derlenmis uygulama degisirse
+bu adaptoru tekrar test edin; _internal API kullanir.
+
+index.html ve 404.html ayni baslatma sirasini kullanir. Alt sayfayi dogrudan
+acarken GitHub Pages HTTP 404 durumu dondurebilir, ancak ozel 404.html
+uygulamayi baslatir; kullanici uygulama ekranini gorur.
+
+Servis calisani yalnizca bu uygulamanin onbellegini yonetir. Ilerleme
+verilerini veya diger uygulamalarin kayitlarini silmez.
+
+Yayin dosyalari elle degistirilirse (Node.js gerekir):
+node scripts/update-publish-assets.cjs
+node --test tests/hosting.test.cjs
+
+Dogrulama:
+- GitHub Pages alt-klasorunu taklit eden yerel sunucuda hatali Kartlar
+  yonlendirmesi duzeltmeden once 404 olarak yeniden uretildi.
+- Duzeltmeden sonra 6 alt menu dugmesi ve Eslesitirme kutusu acildi.
+- Servis calisani devre disiyken /kartlar dogrudan acildi ve yenilendi.
+- Servis calisani etkinlestikten sonra cevrimdisi Eslesitirme yenilemesi gecti.
+- 8 Node.js testi gecti.
+- Yerel Python sunucusunda ana sayfa, alt rota ve JS dosyasi HTTP 200 verdi.
+
+GitHub'a commit veya push bu duzeltme sirasinda yapilmadi.
